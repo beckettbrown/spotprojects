@@ -1,0 +1,6 @@
+basic game idea
+- instead of rock, paper scissor have jarvis make certain movements (left, right, foward)
+- Invite perticipants to play against Jarvis by picking one of the three.
+	- the fisheye lenses can be used, if the participant picks a position and jarvis randomly guesses
+	a direction. If the camera captures the image of a person or the sensor pick up the presence by
+	using Obstical avoidance, Jarvis will emote one of 2 responses, (celebrate or fail)

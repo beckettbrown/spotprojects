@@ -1,0 +1,7 @@
+
+
+# Windows Subsystem for Linux
+	wsl --install
+
+# ROSPY only works with Linux (will not work with windows)
+	import rospy
