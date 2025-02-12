@@ -1,0 +1,60 @@
+Necessary Imports:
+
+
+HELLO SPOT IMPORTS
+import argparse
+import os
+import sys
+import time
+import bosdyn.client
+import bosdyn.client.lease
+import bosdyn.client.util
+import bosdyn.geometry
+from bosdyn.api import trajectory_pb2
+from bosdyn.api.spot import robot_command_pb2 as spot_command_pb2
+from bosdyn.client import math_helpers
+from bosdyn.client.frame_helpers import GRAV_ALIGNED_BODY_FRAME_NAME, ODOM_FRAME_NAME, get_a_tform_b
+from bosdyn.client.image import ImageClient
+from bosdyn.client.robot_command import RobotCommandBuilder, RobotCommandClient, blocking_stand
+from bosdyn.client.robot_state import RobotStateClient
+from bosdyn.util import seconds_to_duration
+
+
+ARM IMPORTS
+import argparse
+import curses
+import logging
+import os
+import signal
+import sys
+import threading
+import time
+
+import bosdyn.api.power_pb2 as PowerServiceProto
+import bosdyn.api.robot_state_pb2 as robot_state_proto
+import bosdyn.client.util
+from bosdyn.api import arm_command_pb2, geometry_pb2, robot_command_pb2, synchronized_command_pb2
+from bosdyn.client import ResponseError, RpcError, create_standard_sdk
+from bosdyn.client.async_tasks import AsyncPeriodicQuery
+from bosdyn.client.estop import EstopClient, EstopEndpoint, EstopKeepAlive
+from bosdyn.client.lease import Error as LeaseBaseError
+from bosdyn.client.lease import LeaseClient, LeaseKeepAlive
+from bosdyn.client.power import PowerClient
+from bosdyn.client.robot_command import RobotCommandBuilder, RobotCommandClient
+from bosdyn.client.robot_state import RobotStateClient
+from bosdyn.client.time_sync import TimeSyncError
+from bosdyn.util import duration_str, format_metric, secs_to_hms
+
+
+GENERAL IMPORTS
+import logging
+import requests
+import json
+import numpy as np
+TINKERER HANDLER
+import tkinter as tk
+import random
+
+
+AUDIO HANDLER
+from playsound import playsound

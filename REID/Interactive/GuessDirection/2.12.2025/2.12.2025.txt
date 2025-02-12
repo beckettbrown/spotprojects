@@ -1,0 +1,9 @@
+#Guessing Game 2.12.2025
+
+In CMD Line
+- requests input from player to play, and interact
+- response with custom jarvis reactions
+
+Does not have:
+- Jarvis functionality, response or movement
+- Need to now connect robot

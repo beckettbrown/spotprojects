@@ -1,0 +1,45 @@
+JARVIS INTERACTIVE GAME
+
+TITLE / OVERVIEW ----- 1.31.2025
+	Game title: I SEE YOU
+	Concept: Jarvis and a Player will select a direction. If Jarvis selects the same direction the player looses
+	Target Audience: Young age group, Peer and Play
+	Direction: Provides a simple controlled version of Pair and Play
+
+GAMEPLAY LOOP ----- 2.5.2025
+	-Game starts with a prompt to the player
+	-After a countdown player positions themselves left, right or infront of Jarvis
+		jarvis randomly selects a direction as well
+	IF:
+	- Jarvis selects the same direction as player (Jarvis expresses 'win' reaction)
+	- Jarvis selects different direction as player (Jarvis expresses 'loss' reaction)
+       		e.    Player is prompted to play again (y/n)
+
+VISUALS / UI 
+	- GUI by python
+	- Button to play
+	- Select Interactive or Stationary
+	- Alternate buttons to select one of three directions
+
+SOUND / FEEDBACK
+	- Prompt Sound
+	- On Play
+	- On Choice
+	- On End: Loss & Win
+	- On Quit
+
+PRODUCTION TIMELINE
+	- gui.py - 1 day
+	- rps.py - 1 day
+	- hello_spot_alt.py - 1 day
+	- loop_test.py - 1 day
+	COMBINATION DAY
+
+TESTING / QA
+	- Every step is tested as listed above
+
+PACKAGING
+	- Export as exe
+	- Win.exe
+	- Mac.app
+	- Cellphone / Tablet (OPTIONAL)
