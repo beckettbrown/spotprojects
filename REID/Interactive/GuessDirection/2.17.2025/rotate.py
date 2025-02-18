@@ -1,6 +1,5 @@
 
-user_input = input("How many parts: ") # User is prompted to input number
-    
+user_input = input("How many parts: ") # User is prompted to input number    
 parts = int(user_input) #place the user's input and code it as an integer and place it under 'parts' object
 
 def rotation_parts(parts): #take the 'parts' and place it into the rotation parts def
