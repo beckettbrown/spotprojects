@@ -1,7 +1,5 @@
 
 user_input = input("How many parts: ") # User is prompted to input number
-if user_input is not int: #if the input is not an integer
-    print("Invalid entry!") #print message
     
 parts = int(user_input) #place the user's input and code it as an integer and place it under 'parts' object
 
