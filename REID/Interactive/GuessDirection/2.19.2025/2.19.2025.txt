@@ -1,0 +1,13 @@
+
+communciate.py
+#Isolates communication function from Computer(via client) to Robot(Jarvis)
+
+
+custom_estop_no_gui.py
+#remove all functionality except for estop information to isolate for futur use
+
+sit_stand.py
+#Isolate functionality of movement for clearer execution of code and error handling
+
+sit_stand_estop_no_gui.py
+#Integration of sit_stand.py and custom_no_gui.py to test errors

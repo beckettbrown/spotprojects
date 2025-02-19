@@ -1,0 +1,1 @@
+#Test running Hello_spot to manipulate angle and global positioning
